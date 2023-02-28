@@ -157,7 +157,7 @@ async function startMiku() {
         clearState,
     } = await getAuthFromDatabase()
 
-    console.log(color(figlet.textSync('Atlas Bot MD', {
+    console.log(color(figlet.textSync('𝙎𝙖𝙔𝙪 𝘽𝙤𝙏 𝙈𝘿', {
         font: 'Pagga',
         horizontalLayout: 'default',
         vertivalLayout: 'default',
@@ -180,7 +180,7 @@ async function startMiku() {
             level: 'silent'
         }),
         printQRInTerminal: true,
-        browser: ['Atlas MD', 'Safari', '1.0.0'],
+        browser: ['𝙎𝙖𝙔𝙪 𝙈𝘿', 'Safari', '1.0.0'],
         auth: state,
         version
     })
