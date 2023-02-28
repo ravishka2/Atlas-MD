@@ -58,7 +58,7 @@ const readCommands = () => {
 readCommands()
 
 async function startMiku() {
-    console.log(color(figlet.textSync('Miku Bot MD', {
+    console.log(color(figlet.textSync('𝙎𝙖𝙔𝙪 𝘽𝙤𝙏 𝙈𝘿', {
         font: 'Pagga',
         horizontalLayout: 'default',
         vertivalLayout: 'default',
